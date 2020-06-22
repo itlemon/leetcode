@@ -1,7 +1,5 @@
 package cn.itlemon.leetcode.array;
 
-import java.util.Stack;
-
 /**
  * 33. 搜索旋转排序数组
  * 假设按照升序排序的数组在预先未知的某个点上进行了旋转。
