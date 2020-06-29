@@ -27,7 +27,7 @@ package cn.itlemon.leetcode.array;
  */
 public class No34FindFirstAndLastPositionOfElementInSortedArray {
 
-    public static int[] searchRange(int[] nums, int target) {
+    public int[] searchRange(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
             return new int[]{-1, -1};
         }
