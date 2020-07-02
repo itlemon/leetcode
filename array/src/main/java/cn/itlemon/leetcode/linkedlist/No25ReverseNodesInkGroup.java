@@ -36,10 +36,15 @@ public class No25ReverseNodesInkGroup {
         if (head == null || k == 1) {
             return head;
         }
-
-
-
-        return null;
+        ListNode pre = null;
+        ListNode curr = head;
+        int n = k;
+        while (curr != null && n-- > 0) {
+            ListNode next = curr.next;
+            pre = curr;
+            curr = next;
+        }
+        return pre;
     }
 
 }
