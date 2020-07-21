@@ -35,6 +35,7 @@ public class No92ReverseLinkedList2 {
                 head = head.next;
             }
         }
+        return null;
     }
 
     /**
