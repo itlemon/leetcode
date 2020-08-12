@@ -2,7 +2,6 @@ package cn.itlemon.leetcode.linkedlist;
 
 import cn.itlemon.leetcode.model.ListNode;
 
-import java.util.List;
 import java.util.Stack;
 
 /**
