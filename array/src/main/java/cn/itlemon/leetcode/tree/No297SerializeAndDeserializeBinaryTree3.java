@@ -64,7 +64,7 @@ public class No297SerializeAndDeserializeBinaryTree3 {
     }
 
     public TreeNode deserialize(String data) {
-
+        return null;
     }
 
 }
